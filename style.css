@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+ol, ul, li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button, a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button, input, textarea, select {
+  -moz-appearance: none !important;
+       appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+body {
+  background-color: #F7E4D4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 520px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+form h1,
+form button {
+  font-family: 'EB Garamond', serif;
+}
+
+form h1 {
+  font-weight: 400;
+  color: #467745;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 521px) {
+  form h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  form h1 {
+    font-size: 36px;
+    text-align: center;
+    text-align: left;
+  }
+}
+
+form input[type=text],
+form textarea {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  font-size: 16px;
+}
+
+form input[type=text] {
+  height: 64px;
+}
+
+form textarea {
+  height: 120px;
+  padding-top: 20px;
+}
+
+form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+form .checkbox input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  margin-right: 20px;
+  -ms-flex-preferred-size: 20px;
+      flex-basis: 20px;
+}
+
+form .checkbox label {
+  -ms-flex-preferred-size: calc(100% - 40px);
+      flex-basis: calc(100% - 40px);
+}
+
+form button {
+  display: block;
+  width: 280px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 40px;
+  background-color: #467745;
+  color: #F7E4D4;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 0.2em;
+}
+/*# sourceMappingURL=style.css.map */

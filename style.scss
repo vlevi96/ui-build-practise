@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+  
+    background: transparent;
+  
+    font-family: inherit;
+    
+    text-decoration: none;
+}
+  
+ol, ul, li {
+    list-style:none;
+    display:block;
+}
+  
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+  
+a img {
+    border: none
+}
+  
+button, a {
+    cursor: pointer;
+    color: inherit
+}
+  
+textarea {
+    resize: none
+}
+  
+button, input, textarea, select {
+    appearance: none !important;
+	-webkit-appearance: none !important;
+    border-radius: 0
+}
+
+body
+{
+    background-color: #F7E4D4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+form
+{
+    width: 100%;
+    max-width: 520px;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+    h1,
+    button
+    {
+        font-family: 'EB Garamond', serif;
+    }
+
+    h1
+    {
+        font-weight: 400;
+        color: #467745;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 521px){
+            font-size: 48px;
+            text-align: center;
+        }
+        @media screen and (max-width: 520px){
+            font-size: 36px;
+            text-align: center;
+            text-align: left;
+        }
+    }
+
+    input[type=text],
+    textarea
+    {
+        display: block;
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+        font-size: 16px;
+    }
+
+    input[type=text]
+    {
+        height: 64px;
+    }
+
+    textarea
+    {
+        height: 120px;
+        padding-top: 20px;
+    }
+
+    .checkbox
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        
+
+        input[type=checkbox]
+        {
+            width: 20px;
+            height: 20px;
+            background-color: #FFF;
+            margin-right: 20px;
+            flex-basis: 20px;
+        }
+        label
+        {
+            flex-basis: calc(100% - 40px);
+        }
+    }
+    
+    button
+    {
+        display: block;
+        width: 280px;
+        height: 80px;
+        margin: 0 auto;
+        border-radius: 40px;
+        background-color:#467745;
+        color: #F7E4D4;
+        text-transform: uppercase;
+        font-size: 21px;
+        letter-spacing: 0.2em;
+    }
+}
